@@ -1,0 +1,47 @@
+body{
+    background-color: #212529;
+    color: white;
+}
+
+.banner-2{
+    background-image: url(../images/background.jpg);
+    height: 50vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#banner-text{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 100%;
+}
+
+.col h1{
+    width: 100%;
+    border: 15px black;
+}
+
+#bottom-nav ul{
+    list-style-type: none;
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
